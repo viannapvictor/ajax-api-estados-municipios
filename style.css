@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c;
+    color: #7757a7;
+}
+
+.dropdown {
+    margin: 25px;
+    display: grid;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 5rem;
+}
+
+#estados {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    justify-content: flex-start;
+    border: 2px solid #7757a7;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    color: #7757a7;
+    font-weight: 700;
+}
+
+#municipios {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    justify-content: flex-start;
+    border: 2px solid #7757a7;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
